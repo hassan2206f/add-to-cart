@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-brand img {
+    width: 145px;
+    height: 60px;
+}
+
+.nav-bar {
+    display: flex;
+    background: white;
+}
+
+.nav {
+    margin-left: 420px;
+}
+
+.nav ul {
+    color: rgb(10, 10, 10);
+    display: flex;
+    align-items: center;
+}
+
+.nav ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: 5px;
+}
+
+.nav-item {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.navbar-collapse {
+    margin-right: 70px;
+}
+
+.navbar-collapse ul li {
+    margin-right: 20px;
+}
+
+.product {
+    position: relative;
+    height: 300px;
+    background: rgb(253, 247, 247);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.product-img {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#cart {
+    position: absolute;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 15px;
+    background: white;
+    margin-left: 115px;
+    cursor: pointer;
+    margin-top: 9px;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 360px;
+    min-height: 100vh;
+    padding: 20px;
+    background: rgb(252, 248, 248);
+    box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition: 0.3s;
+}
+
+.page.active {
+    right: 0;
+}
+
+.product:hover {
+    padding: 10px;
+    border: 1px solid rgb(12, 12, 12);
+    transition: 0.4s;
+}
+
+.cart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+nav {
+    z-index: 100;
+}
+
+.cart-box {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.cart-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.detail-box {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.cartproduct {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.cart-price {
+    font-weight: 500;
+}
+
+.quantity {
+    border: 1px solid black;
+    outline-color: red;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.delete {
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid black;
+}
+
+.total-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.total-price {
+    margin-left: 0.5rem;
+}
+
+.buybtn {
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: red;
+    color: rgb(252, 248, 248);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buybtn:hover {
+    background-color: black;
+}
+
+#cross {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+}
